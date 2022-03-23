@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="StyleConfig.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+	</style>
+	<title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+	<div class="main">
+		<div class="iconcircle">
+			<img src="images\icon-star.svg" alt="Image load fail">
+		</div>
+		<div class="text1">How did we do?</div>
+		<div class="text2">Please let us know how we did with your 
+			 support request. All feedback is apreciated 
+			 to help us improve our offering!
+		</div>
+		<div class="buttonselect">
+			<div class="button" id="Numero1" onclick="Escolha(1)">1</div>	
+			<div class="button" id="Numero2" onclick="Escolha(2)">2</div>	
+			<div class="button" id="Numero3" onclick="Escolha(3)">3</div>	
+			<div class="button" id="Numero4" onclick="Escolha(4)">4</div>	
+			<div class="button" id="Numero5" onclick="Escolha(5)">5</div>	
+		</div>
+		<div class="SubmitButton" onclick="Revelar()">submit</div>
+	</div>
+	
+	<div class="Result">
+		<div class="Celjpg">
+			<img src="images\illustration-thank-you.svg" alt="Image load fail">
+		</div>
+		<div class="ResText" id="Res">You didn't make a selection</div>
+		<div class="ThankTitle">Thank you!</div>
+		<div class="ThankText">We appreciate you taking the time 
+			to give a rating. If you ever need more support, don't 
+			hesitate to get in touch!</div>
+		</div>
+	
+</body>
+</html>
